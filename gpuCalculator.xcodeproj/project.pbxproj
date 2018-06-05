@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		938EC55920C7181400682AAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938EC55820C7181400682AAA /* AppDelegate.swift */; };
+		938EC55B20C7181400682AAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938EC55A20C7181400682AAA /* ViewController.swift */; };
+		938EC55E20C7181400682AAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 938EC55C20C7181400682AAA /* Main.storyboard */; };
+		938EC56020C7181600682AAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 938EC55F20C7181600682AAA /* Assets.xcassets */; };
+		938EC56320C7181600682AAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 938EC56120C7181600682AAA /* LaunchScreen.storyboard */; };
+		938EC56E20C7181600682AAA /* gpuCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938EC56D20C7181600682AAA /* gpuCalculatorTests.swift */; };
+		938EC57920C7181600682AAA /* gpuCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938EC57820C7181600682AAA /* gpuCalculatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		938EC56A20C7181600682AAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 938EC54D20C7181400682AAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 938EC55420C7181400682AAA;
+			remoteInfo = gpuCalculator;
+		};
+		938EC57520C7181600682AAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 938EC54D20C7181400682AAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 938EC55420C7181400682AAA;
+			remoteInfo = gpuCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		938EC55520C7181400682AAA /* gpuCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gpuCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		938EC55820C7181400682AAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		938EC55A20C7181400682AAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		938EC55D20C7181400682AAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		938EC55F20C7181600682AAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		938EC56220C7181600682AAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		938EC56420C7181600682AAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		938EC56920C7181600682AAA /* gpuCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gpuCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		938EC56D20C7181600682AAA /* gpuCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gpuCalculatorTests.swift; sourceTree = "<group>"; };
+		938EC56F20C7181600682AAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		938EC57420C7181600682AAA /* gpuCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gpuCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		938EC57820C7181600682AAA /* gpuCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gpuCalculatorUITests.swift; sourceTree = "<group>"; };
+		938EC57A20C7181600682AAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		938EC55220C7181400682AAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		938EC56620C7181600682AAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		938EC57120C7181600682AAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		938EC54C20C7181400682AAA = {
+			isa = PBXGroup;
+			children = (
+				938EC55720C7181400682AAA /* gpuCalculator */,
+				938EC56C20C7181600682AAA /* gpuCalculatorTests */,
+				938EC57720C7181600682AAA /* gpuCalculatorUITests */,
+				938EC55620C7181400682AAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		938EC55620C7181400682AAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				938EC55520C7181400682AAA /* gpuCalculator.app */,
+				938EC56920C7181600682AAA /* gpuCalculatorTests.xctest */,
+				938EC57420C7181600682AAA /* gpuCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		938EC55720C7181400682AAA /* gpuCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				938EC55820C7181400682AAA /* AppDelegate.swift */,
+				938EC55A20C7181400682AAA /* ViewController.swift */,
+				938EC55C20C7181400682AAA /* Main.storyboard */,
+				938EC55F20C7181600682AAA /* Assets.xcassets */,
+				938EC56120C7181600682AAA /* LaunchScreen.storyboard */,
+				938EC56420C7181600682AAA /* Info.plist */,
+			);
+			path = gpuCalculator;
+			sourceTree = "<group>";
+		};
+		938EC56C20C7181600682AAA /* gpuCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				938EC56D20C7181600682AAA /* gpuCalculatorTests.swift */,
+				938EC56F20C7181600682AAA /* Info.plist */,
+			);
+			path = gpuCalculatorTests;
+			sourceTree = "<group>";
+		};
+		938EC57720C7181600682AAA /* gpuCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				938EC57820C7181600682AAA /* gpuCalculatorUITests.swift */,
+				938EC57A20C7181600682AAA /* Info.plist */,
+			);
+			path = gpuCalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		938EC55420C7181400682AAA /* gpuCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 938EC57D20C7181600682AAA /* Build configuration list for PBXNativeTarget "gpuCalculator" */;
+			buildPhases = (
+				938EC55120C7181400682AAA /* Sources */,
+				938EC55220C7181400682AAA /* Frameworks */,
+				938EC55320C7181400682AAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gpuCalculator;
+			productName = gpuCalculator;
+			productReference = 938EC55520C7181400682AAA /* gpuCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		938EC56820C7181600682AAA /* gpuCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 938EC58020C7181600682AAA /* Build configuration list for PBXNativeTarget "gpuCalculatorTests" */;
+			buildPhases = (
+				938EC56520C7181600682AAA /* Sources */,
+				938EC56620C7181600682AAA /* Frameworks */,
+				938EC56720C7181600682AAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				938EC56B20C7181600682AAA /* PBXTargetDependency */,
+			);
+			name = gpuCalculatorTests;
+			productName = gpuCalculatorTests;
+			productReference = 938EC56920C7181600682AAA /* gpuCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		938EC57320C7181600682AAA /* gpuCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 938EC58320C7181600682AAA /* Build configuration list for PBXNativeTarget "gpuCalculatorUITests" */;
+			buildPhases = (
+				938EC57020C7181600682AAA /* Sources */,
+				938EC57120C7181600682AAA /* Frameworks */,
+				938EC57220C7181600682AAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				938EC57620C7181600682AAA /* PBXTargetDependency */,
+			);
+			name = gpuCalculatorUITests;
+			productName = gpuCalculatorUITests;
+			productReference = 938EC57420C7181600682AAA /* gpuCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		938EC54D20C7181400682AAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Yasaman Marcu";
+				TargetAttributes = {
+					938EC55420C7181400682AAA = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					938EC56820C7181600682AAA = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 938EC55420C7181400682AAA;
+					};
+					938EC57320C7181600682AAA = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 938EC55420C7181400682AAA;
+					};
+				};
+			};
+			buildConfigurationList = 938EC55020C7181400682AAA /* Build configuration list for PBXProject "gpuCalculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 938EC54C20C7181400682AAA;
+			productRefGroup = 938EC55620C7181400682AAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				938EC55420C7181400682AAA /* gpuCalculator */,
+				938EC56820C7181600682AAA /* gpuCalculatorTests */,
+				938EC57320C7181600682AAA /* gpuCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		938EC55320C7181400682AAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				938EC56320C7181600682AAA /* LaunchScreen.storyboard in Resources */,
+				938EC56020C7181600682AAA /* Assets.xcassets in Resources */,
+				938EC55E20C7181400682AAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		938EC56720C7181600682AAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		938EC57220C7181600682AAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		938EC55120C7181400682AAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				938EC55B20C7181400682AAA /* ViewController.swift in Sources */,
+				938EC55920C7181400682AAA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		938EC56520C7181600682AAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				938EC56E20C7181600682AAA /* gpuCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		938EC57020C7181600682AAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				938EC57920C7181600682AAA /* gpuCalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		938EC56B20C7181600682AAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 938EC55420C7181400682AAA /* gpuCalculator */;
+			targetProxy = 938EC56A20C7181600682AAA /* PBXContainerItemProxy */;
+		};
+		938EC57620C7181600682AAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 938EC55420C7181400682AAA /* gpuCalculator */;
+			targetProxy = 938EC57520C7181600682AAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		938EC55C20C7181400682AAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				938EC55D20C7181400682AAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		938EC56120C7181600682AAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				938EC56220C7181600682AAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		938EC57B20C7181600682AAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		938EC57C20C7181600682AAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		938EC57E20C7181600682AAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = gpuCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CL.gpuCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		938EC57F20C7181600682AAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = gpuCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CL.gpuCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		938EC58120C7181600682AAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = gpuCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CL.gpuCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gpuCalculator.app/gpuCalculator";
+			};
+			name = Debug;
+		};
+		938EC58220C7181600682AAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = gpuCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CL.gpuCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gpuCalculator.app/gpuCalculator";
+			};
+			name = Release;
+		};
+		938EC58420C7181600682AAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = gpuCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CL.gpuCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gpuCalculator;
+			};
+			name = Debug;
+		};
+		938EC58520C7181600682AAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = gpuCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CL.gpuCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gpuCalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		938EC55020C7181400682AAA /* Build configuration list for PBXProject "gpuCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				938EC57B20C7181600682AAA /* Debug */,
+				938EC57C20C7181600682AAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		938EC57D20C7181600682AAA /* Build configuration list for PBXNativeTarget "gpuCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				938EC57E20C7181600682AAA /* Debug */,
+				938EC57F20C7181600682AAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		938EC58020C7181600682AAA /* Build configuration list for PBXNativeTarget "gpuCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				938EC58120C7181600682AAA /* Debug */,
+				938EC58220C7181600682AAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		938EC58320C7181600682AAA /* Build configuration list for PBXNativeTarget "gpuCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				938EC58420C7181600682AAA /* Debug */,
+				938EC58520C7181600682AAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 938EC54D20C7181400682AAA /* Project object */;
+}
