@@ -14,6 +14,7 @@
 		938EC56320C7181600682AAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 938EC56120C7181600682AAA /* LaunchScreen.storyboard */; };
 		938EC56E20C7181600682AAA /* gpuCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938EC56D20C7181600682AAA /* gpuCalculatorTests.swift */; };
 		938EC57920C7181600682AAA /* gpuCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938EC57820C7181600682AAA /* gpuCalculatorUITests.swift */; };
+		938EC58720C81FB400682AAA /* Shader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 938EC58620C81FB400682AAA /* Shader.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		938EC57420C7181600682AAA /* gpuCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gpuCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		938EC57820C7181600682AAA /* gpuCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gpuCalculatorUITests.swift; sourceTree = "<group>"; };
 		938EC57A20C7181600682AAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		938EC58620C81FB400682AAA /* Shader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shader.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +102,10 @@
 				938EC55820C7181400682AAA /* AppDelegate.swift */,
 				938EC55A20C7181400682AAA /* ViewController.swift */,
 				938EC55C20C7181400682AAA /* Main.storyboard */,
-				938EC55F20C7181600682AAA /* Assets.xcassets */,
 				938EC56120C7181600682AAA /* LaunchScreen.storyboard */,
+				938EC55F20C7181600682AAA /* Assets.xcassets */,
 				938EC56420C7181600682AAA /* Info.plist */,
+				938EC58620C81FB400682AAA /* Shader.metal */,
 			);
 			path = gpuCalculator;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				938EC58720C81FB400682AAA /* Shader.metal in Sources */,
 				938EC55B20C7181400682AAA /* ViewController.swift in Sources */,
 				938EC55920C7181400682AAA /* AppDelegate.swift in Sources */,
 			);
@@ -431,6 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YL7Q499FV6;
 				INFOPLIST_FILE = gpuCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,6 +453,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YL7Q499FV6;
 				INFOPLIST_FILE = gpuCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
