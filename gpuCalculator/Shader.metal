@@ -15,4 +15,10 @@ kernel void shader(device int *printBuffer [[ buffer(0) ]],
     printBuffer[id] = 98123;
 }
 
-
+kernel void compute(const device float *inVector [[ buffer(0) ]],
+                    device float *outVector [[ buffer(1) ]],
+                    device float *sizeOfArray [[ buffer(2) ]],
+                    uint id [[ thread_position_in_grid ]])
+{
+    outVector[id] = (fabs(inVector[id]-outVector[id])/12.3)*0.123;
+}
