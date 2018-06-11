@@ -9,16 +9,16 @@
 #include <metal_stdlib>
 using namespace metal;
 
-// GPU function to calculate
-kernel void kernal_function(const device float *inVector [[ buffer(0) ]],
-                    device float *outVector [[ buffer(1) ]],
-                    uint id [[ thread_position_in_grid ]])
-{
-    outVector[id] = 1.0 / (1.0 + exp(-inVector[id]));
-}
-
-kernel void shader(device int &printBuffer [[buffer(0)]],
+kernel void shader(device int *printBuffer [[ buffer(0) ]],
                    uint id [[ thread_position_in_grid ]]) {
     
-    printBuffer = 98123;
+    printBuffer[id] = 98123;
+}
+
+kernel void compute(const device float *inVector [[ buffer(0) ]],
+                    device float *outVector [[ buffer(1) ]],
+                    device float *sizeOfArray [[ buffer(2) ]],
+                    uint id [[ thread_position_in_grid ]])
+{
+    outVector[id] = (fabs(inVector[id]-outVector[id])/12.3)*0.123;
 }

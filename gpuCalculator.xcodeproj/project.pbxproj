@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9318716620CAC7FD008D8E9E /* teapot.obj in Resources */ = {isa = PBXBuildFile; fileRef = 9318716520CAC7FD008D8E9E /* teapot.obj */; };
 		938EC55920C7181400682AAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938EC55820C7181400682AAA /* AppDelegate.swift */; };
 		938EC55B20C7181400682AAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938EC55A20C7181400682AAA /* ViewController.swift */; };
 		938EC55E20C7181400682AAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 938EC55C20C7181400682AAA /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9318716520CAC7FD008D8E9E /* teapot.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = teapot.obj; path = ../../../Downloads/teapot.obj; sourceTree = "<group>"; };
 		938EC55520C7181400682AAA /* gpuCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gpuCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		938EC55820C7181400682AAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		938EC55A20C7181400682AAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				938EC55C20C7181400682AAA /* Main.storyboard */,
 				938EC56120C7181600682AAA /* LaunchScreen.storyboard */,
 				938EC55F20C7181600682AAA /* Assets.xcassets */,
+				9318716520CAC7FD008D8E9E /* teapot.obj */,
 				938EC56420C7181600682AAA /* Info.plist */,
 				938EC58620C81FB400682AAA /* Shader.metal */,
 			);
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9318716620CAC7FD008D8E9E /* teapot.obj in Resources */,
 				938EC56320C7181600682AAA /* LaunchScreen.storyboard in Resources */,
 				938EC56020C7181600682AAA /* Assets.xcassets in Resources */,
 				938EC55E20C7181400682AAA /* Main.storyboard in Resources */,
