@@ -17,9 +17,9 @@ First time using Metal so I took some notes that might be useful for anyone who 
 ### Definitions and Notes
 * Can NOT pass data directly to GPU, got to pass it through metal buffer
 * Metal Best Practices Guide states that we should always avoid creating buffers when our data is less than 4 KB (up to a thousand Floats, for example). In this case we should simply use the setBytes() function instead of creating a buffer.
-* Posix_memalign: shared memory between CPU and GPU (combination of buffers and pointers - magic)
-* SIMD: Single instruction, multiple data
-* Kernel: kernel's responsibilities include managing the system's resources (the communication between hardware and software components).
+* **Posix_memalign**: shared memory between CPU and GPU (combination of buffers and pointers - magic)
+* **SIMD**: Single instruction, multiple data
+* **Kernel**: kernel's responsibilities include managing the system's resources (the communication between hardware and software components).
 
 
 ### Useful Resources
@@ -29,3 +29,4 @@ First time using Metal so I took some notes that might be useful for anyone who 
 * [Calculating Threadgroup and Grid Sizes](https://developer.apple.com/documentation/metal/compute_processing/calculating_threadgroup_and_grid_sizes)
 * [List of Sample codes](http://metalbyexample.com/)
 * [Sample code - 1D GPU computation](https://stackoverflow.com/questions/35985353/metal-shading-language-console-output)
+* [Working with Memory in Metal](http://metalkit.org/2017/04/30/working-with-memory-in-metal.html)
